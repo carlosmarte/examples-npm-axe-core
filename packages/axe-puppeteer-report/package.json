@@ -1,0 +1,23 @@
+{
+  "name": "axe-puppeteer-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosmarte/saucelabs-npm-webdriverio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosmarte/saucelabs-npm-webdriverio/issues"
+  },
+  "homepage": "https://github.com/carlosmarte/saucelabs-npm-webdriverio#readme",
+  "dependencies": {
+    "puppeteer": "^13.3.2"
+  }
+}
