@@ -1,0 +1,25 @@
+{
+  "name": "axe-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "webdriverio": "^7.40.0"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosmarte/saucelabs-npm-webdriverio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosmarte/saucelabs-npm-webdriverio/issues"
+  },
+  "homepage": "https://github.com/carlosmarte/saucelabs-npm-webdriverio#readme",
+  "dependencies": {
+    "@axe-core/webdriverio": "^4.10.2"
+  }
+}

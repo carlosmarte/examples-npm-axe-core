@@ -1,0 +1,34 @@
+{
+  "name": "saucelabs-npm-webdriverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosmarte/saucelabs-npm-webdriverio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosmarte/saucelabs-npm-webdriverio/issues"
+  },
+  "homepage": "https://github.com/carlosmarte/saucelabs-npm-webdriverio#readme",
+  "devDependencies": {
+    "abort-controller": "^3.0.0",
+    "global-agent": "^3.0.0",
+    "node-fetch": "^3.2.0",
+    "saucelabs": "^7.1.3",
+    "axe-core": "^4.4.1"
+  },
+  "workspaces": [
+    "axe-puppeteer-report",
+    "axe-webdriverio"
+  ],
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "mkdirp": "^1.0.4"
+  }
+}
